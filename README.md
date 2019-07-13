@@ -34,5 +34,5 @@
                    , **[DATE]** 
                    from Employees;
 14. Temporary Table can be created using #, ## or Table Variable.
-15. **;** should be specified at the termination of every statement.
-16. **;** always required for Common Table Expressions and Service Broker Commands.
+15. **';'** should be specified at the termination of every statement.
+16. **';'** always required for Common Table Expressions and Service Broker Commands.
