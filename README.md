@@ -1,6 +1,15 @@
 # Sql Notes And Cheatsheet 
 
-##Coding Standreds
+## Coding Standreds
+
+
+
+
+
+
+## Shortcurs and Cheatsheet
+
+
 
 
 
