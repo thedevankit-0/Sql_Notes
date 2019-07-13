@@ -3,9 +3,7 @@
 ## Coding Standards
 1. Use [ ] brackets to specify coloumn name in select statement.
 2. Do not use SELECT * as it affects significant performance.
-   For. Eg. SELECT **[ID]**
-                 **, [NAME]**
-                 from Employees;
+   For. Eg. SELECT * from Employees;
 3. Select query should have SELECT keyword in Capital Letters.
    For. Eg. **SELECT** [ID]
                  , [NAME]
