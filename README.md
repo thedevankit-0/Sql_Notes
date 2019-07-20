@@ -14,14 +14,11 @@
                  **, [SALARY]**
                  from Employees;
 5. Comma seperator should be before the start of new column name.
-   For. Eg. 
-   ```sql
-            SELECT [ID]
+   For. Eg. SELECT [ID]
                  **,** [NAME]
                  **,** [SALARY]
                  from Employees;
-    ```
-6. Query should be optimize for better performance.
+6.Query should be optimize for better performance.
 7. Proper Indentation should be followed while writing the query.
 8. Define Aliases to change column name to your convenient name. Used to shorten Column Names of Coulmns having large names.
 9. **'AS'** keyword is used to define aliases.
@@ -42,14 +39,13 @@
 19. Entity name should be plural.
 20. Primary key should be NOT NULL  AND AUTO_INCREMENT.
 21. While inserting values in table 
-   1. Don't insert the value of auto incremented columun.
-   2. Inserting values should be in same case it means data should be consistant.
-22 .While creating table obey all the rules of Normal Forms.
-23 .Explicitly specify the order of column Like ASC or DESC.
-24 .View name should start with 'V'
-    Ex.[vEmployee]
+     - Don't insert the value of auto incremented columun.
+     - Inserting values should be in same case it means data should be consistant.
+22. While creating table obey all the rules of Normal Forms.
+23. Explicitly specify the order of column Like ASC or DESC.
+24. View name should start with 'V'.
+     Ex. [vEmployee]
    
 25. Schema should be required for tables.
 26. All predefine clauses name sholud be in capital letters.
-    Ex.FROM,SELECT etc.
-   
+     Ex. FROM,SELECT etc.
