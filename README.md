@@ -34,18 +34,18 @@
 14. Temporary Table can be created using #, ## or Table Variable.
 15. **';'** should be specified at the termination of every statement.
 16. **';'** always required for Common Table Expressions and Service Broker Commands.
-17.Code must contain comments.
-18.Remove unwanted code.
-19.Entity name should be plural.
-20.Primary key should be NOT NULL  AND AUTO_INCREMENT.
-21.While inserting values in table 
-   1.don't insert the value of auto incremented columun.
-   2.Inserting values should be in same case it means data should be consistant.
-22.While creating table obey all the rules of Normal Forms.
-23.Explicitly specify the order of column Like ASC or DESC.
-24.View name should start with 'V'
-   Ex.[vEmployee]
+17. Code must contain comments.
+18. Remove unwanted code.
+19. Entity name should be plural.
+20. Primary key should be NOT NULL  AND AUTO_INCREMENT.
+21. While inserting values in table 
+   1. Don't insert the value of auto incremented columun.
+   2. Inserting values should be in same case it means data should be consistant.
+22 .While creating table obey all the rules of Normal Forms.
+23 .Explicitly specify the order of column Like ASC or DESC.
+24 .View name should start with 'V'
+    Ex.[vEmployee]
    
-25.Schema should be required for tables.
-26.All predefine clauses name sholud be in capital letters.
-   Ex.FROM,SELECT etc.
+25. Schema should be required for tables.
+26. All predefine clauses name sholud be in capital letters.
+    Ex.FROM,SELECT etc.
