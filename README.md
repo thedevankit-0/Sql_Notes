@@ -6,32 +6,32 @@
    For. Eg. SELECT * from Employees;
 3. Select query should have SELECT keyword in Capital Letters. For. Eg. 
    ```sql
-                 SELECT [ID]
-                      , [NAME]
-                 FROM Employees; 
-     ```      
+   SELECT [ID]
+          , [NAME]
+   FROM Employees; 
+   ```      
 4. Specify column name on seperate lines. For. Eg.
     ```sql
-            SELECT [ID]
-                 , [NAME]
-                 , [SALARY]
-            FROM Employees;
-     ```
+   SELECT [ID]
+          , [NAME]
+          , [SALARY]
+   FROM Employees;
+   ```
 5. Comma seperator should be before the start of new column name. For. Eg. 
    ```sql
-         SELECT [ID]
-                 ,[NAME]
-                 ,[SALARY]
-         FROM Employees;
+   SELECT [ID]
+          , [NAME]
+          , [SALARY]
+   FROM Employees;
    ```
-6.Query should be optimize for better performance.
+6. Query should be optimize for better performance.
 7. Proper Indentation should be followed while writing the query.
 8. Define Aliases to change column name to your convenient name. Used to shorten Column Names of Coulmns having large names.
 9. **'AS'** keyword is used to define aliases.
    For. Eg.
     ```sql
-         SELECT [Department Name] AS [DeptName]
-         FROM Employees;
+   SELECT [Department Name] AS [DeptName]
+          FROM Employees;
      ```
 10. First Character of Identifier should start with **(_), (@), #**.
 11. Do not use Reserved keywords for identifiers.
@@ -39,9 +39,9 @@
 13. When keyword & column name are same use square bracket to use column name in query.
     For. Eg. 
     ```sql
-            SELECT [NAME]
-                  , [DATE] 
-            FROM Employees;
+    SELECT [NAME]
+           , [DATE] 
+    FROM Employees;
      ```
 14. Temporary Table can be created using #, ## or Table Variable.
 15. **';'** should be specified at the termination of every statement.
@@ -56,8 +56,7 @@
 22. While creating table obey all the rules of Normal Forms.
 23. Explicitly specify the order of column Like ASC or DESC.
 24. View name should start with 'V'.
-     Ex. [vEmployee]
-   
+     Ex. [vEmployee]  
 25. Schema should be required for tables.
 26. All predefine clauses name sholud be in capital letters.
      Ex. FROM,SELECT etc.
