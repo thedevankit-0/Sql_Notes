@@ -14,11 +14,14 @@
                  **, [SALARY]**
                  from Employees;
 5. Comma seperator should be before the start of new column name.
-   For. Eg. SELECT [ID]
+   For. Eg. 
+   ```sql
+            SELECT [ID]
                  **,** [NAME]
                  **,** [SALARY]
                  from Employees;
-6.Query should be optimize for better performance.
+    ```
+6. Query should be optimize for better performance.
 7. Proper Indentation should be followed while writing the query.
 8. Define Aliases to change column name to your convenient name. Used to shorten Column Names of Coulmns having large names.
 9. **'AS'** keyword is used to define aliases.
@@ -49,3 +52,4 @@
 25. Schema should be required for tables.
 26. All predefine clauses name sholud be in capital letters.
     Ex.FROM,SELECT etc.
+   
