@@ -54,7 +54,7 @@
 19. Entity name should be plural.
 20. Primary key should be NOT NULL  AND AUTO_INCREMENT.
 21. While inserting values in table 
-     - Don't insert the value of auto incremented columun.
+     - Don't insert the value in auto incremented column.
      - Inserting values should be in same case it means data should be consistant.
 22. While creating table obey all the rules of Normal Forms.
 23. Explicitly specify the order of column Like ASC or DESC.
@@ -62,4 +62,4 @@
      Ex. [vEmployee]  
 25. Schema should be required for tables.
 26. All predefine clauses name sholud be in capital letters.
-     Ex. FROM,SELECT etc.
+     Ex. FROM, SELECT etc.
